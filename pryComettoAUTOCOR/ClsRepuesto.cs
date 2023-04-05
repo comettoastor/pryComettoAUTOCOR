@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace pryComettoAUTOCOR
 {
@@ -16,7 +17,8 @@ namespace pryComettoAUTOCOR
 
         public string Consultar()
         {
-            return "Código: " + Codigo;
+            return "Código: " + Codigo + "\nNombre: " + Nombre + "\nMarca: " + Marca + "\nPrecio: " + Precio + "\nOrigen: " + Origen;
         }
     }
 }
+
