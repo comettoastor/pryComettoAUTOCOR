@@ -1,0 +1,4 @@
+231,AAAA,Marca D,21415,Nacional
+2,Carburador,Marca C,1000,Nacional
+21,Tornillo,Marca B,1200,Importado
+98,Clavo,Marca B,800,Nacional

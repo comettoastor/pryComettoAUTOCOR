@@ -44,7 +44,6 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.lstRepuestos = new System.Windows.Forms.ListBox();
             this.mrcRepuesto.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -210,27 +209,19 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // lstRepuestos
-            // 
-            this.lstRepuestos.FormattingEnabled = true;
-            this.lstRepuestos.Location = new System.Drawing.Point(12, 219);
-            this.lstRepuestos.Name = "lstRepuestos";
-            this.lstRepuestos.Size = new System.Drawing.Size(243, 147);
-            this.lstRepuestos.TabIndex = 6;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 373);
-            this.Controls.Add(this.lstRepuestos);
+            this.ClientSize = new System.Drawing.Size(385, 224);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.mrcRepuesto);
             this.Name = "frmPrincipal";
-            this.Text = "Registro de Repuestos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "AUTOCOR - Repuestos";
             this.mrcRepuesto.ResumeLayout(false);
             this.mrcRepuesto.PerformLayout();
             this.ResumeLayout(false);
@@ -255,7 +246,6 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.ListBox lstRepuestos;
     }
 }
 
